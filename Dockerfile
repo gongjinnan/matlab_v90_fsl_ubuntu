@@ -1,4 +1,4 @@
-FROM jngong/matlab_v90_fsl_ubuntu_download
+FROM daocloud.io/jngong/matlab_v90_fsl_ubuntu_download
 MAINTAINER Jinnan Gong <gongjinnan1989@gmail.com> 
 WORKDIR /mcr-install 
 RUN ./install -mode silent -agreeToLicense yes
